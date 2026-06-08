@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.8.0](https://github.com/tokio-rs/toasty/compare/toasty-driver-sqlite-v0.7.0...toasty-driver-sqlite-v0.8.0) - 2026-06-08
+
+### Fixed
+
+- SQLite driver now propagates errors instead of panicking in query execution ([#1007])
+
+[#1007]: https://github.com/tokio-rs/toasty/pull/1007
+
 ## [0.7.0](https://github.com/tokio-rs/toasty/compare/toasty-driver-sqlite-v0.6.1...toasty-driver-sqlite-v0.7.0) - 2026-05-29
 
 ### Added

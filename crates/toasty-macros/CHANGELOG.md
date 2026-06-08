@@ -7,6 +7,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.8.0](https://github.com/tokio-rs/toasty/compare/toasty-macros-v0.7.0...toasty-macros-v0.8.0) - 2026-06-08
+
+### Added
+
+- Allow indices on unit enums ([#1027])
+- Add between operator to query DSL ([#1029])
+- Support composite unique indices ([#1018])
+- Support scalar terminal fields in has_many relations ([#1012])
+
+### Changed
+
+- [**breaking**] Rename RelationManyField/RelationOneField assoc type to Target ([#1015])
+- [**breaking**] Align stmt::Query with per-model Query ([#1011])
+- [**breaking**] Unify per-model query structs into Query<T> ([#995])
+- [**breaking**] Remove the Register trait ([#1006])
+
+[#995]: https://github.com/tokio-rs/toasty/pull/995
+[#1006]: https://github.com/tokio-rs/toasty/pull/1006
+[#1011]: https://github.com/tokio-rs/toasty/pull/1011
+[#1012]: https://github.com/tokio-rs/toasty/pull/1012
+[#1015]: https://github.com/tokio-rs/toasty/pull/1015
+[#1018]: https://github.com/tokio-rs/toasty/pull/1018
+[#1027]: https://github.com/tokio-rs/toasty/pull/1027
+[#1029]: https://github.com/tokio-rs/toasty/pull/1029
+
 ## [0.7.0](https://github.com/tokio-rs/toasty/compare/toasty-macros-v0.6.1...toasty-macros-v0.7.0) - 2026-05-29
 
 ### Added
